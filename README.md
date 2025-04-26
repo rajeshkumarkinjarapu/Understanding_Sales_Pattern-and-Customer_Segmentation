@@ -1,80 +1,80 @@
-## Customer Segmentation and Sales Pattern Analysis
-📋 Project Overview
+# Customer Segmentation and Sales Pattern Analysis
+## 📋 Project Overview
 This project focuses on analyzing an E-commerce dataset containing attributes like Sales, Quantity, Profit, Discount, and various categorical features (Segment, Ship Mode, Region, etc.).
 Through Exploratory Data Analysis (EDA) and Clustering Techniques, we uncover trends, patterns, and relationships to offer actionable insights for improving marketing strategies, customer engagement, and profitability.
 
-🛠️ Problem Statement
+## 🛠️ Problem Statement
 Analyze customer behavior and sales patterns to:
 
-Segment customers based on purchasing behavior
+➤Segment customers based on purchasing behavior
 
-Identify regional and product-based performance
+➤Identify regional and product-based performance
 
-Provide data-driven recommendations for business growth
+➤Provide data-driven recommendations for business growth
 
-📈 Methodology
-Data Collection & Inspection
+## 📈 Methodology
+➤Data Collection & Inspection
 
-Acquired and cleaned e-commerce data (Sales, Quantity, Profit, Discount, etc.)
+•Acquired and cleaned e-commerce data (Sales, Quantity, Profit, Discount, etc.)
 
-Handled missing values, duplicates, and inconsistencies
+•Handled missing values, duplicates, and inconsistencies
 
-Data Preprocessing
+➤Data Preprocessing
 
-Imputation, outlier removal
+•Imputation, outlier removal
 
-Feature engineering (Customer Lifetime Value, Recency, Frequency, Monetary)
+•Feature engineering (Customer Lifetime Value, Recency, Frequency, Monetary)
 
-Feature Scaling
+➤Feature Scaling
 
-Standardized numerical features for better clustering results
+•Standardized numerical features for better clustering results
 
-Data Visualization
+➤Data Visualization
 
-Univariate: Histograms, Box Plots, Bar Charts
+•Univariate: Histograms, Box Plots, Bar Charts
 
-Bivariate: Scatter plots, Correlation matrices
+•Bivariate: Scatter plots, Correlation matrices
 
-Multivariate: Heatmaps, 3D plots
+•Multivariate: Heatmaps, 3D plots
 
-Customer Segmentation
+➤Customer Segmentation
 
-Applied K-Means Clustering
+•Applied K-Means Clustering
 
-Used Elbow Method to find optimal clusters
+•Used Elbow Method to find optimal clusters
 
-Applied PCA for dimensionality reduction and visualization
+•Applied PCA for dimensionality reduction and visualization
 
-🚀 Results
-High-Value Customers: Identified prime targets for loyalty programs (Clusters 0 & 2)
+## 🚀 Results
+•High-Value Customers: Identified prime targets for loyalty programs (Clusters 0 & 2)
 
-At-Risk Customers: Low sales and profit (Clusters 1 & 3)
+•At-Risk Customers: Low sales and profit (Clusters 1 & 3)
 
-Frequent Shoppers: High quantity but low sales value buyers (Cluster 1)
+•Frequent Shoppers: High quantity but low sales value buyers (Cluster 1)
 
-Top Regions: California, New York, Texas
+•Top Regions: California, New York, Texas
 
-Top Products: Home-office segment (Staple-related products)
+•Top Products: Home-office segment (Staple-related products)
 
-Preferred Shipping Mode: Standard Class
+•Preferred Shipping Mode: Standard Class
 
-Best Sales Year: 2016
+•Best Sales Year: 2016
 
-📊 Key Visualizations
-Segment vs Profit Bar Charts
+## 📊 Key Visualizations
+•Segment vs Profit Bar Charts
 
-Top 10 States Revenue Bar Charts
+•Top 10 States Revenue Bar Charts
 
-Violin Plots showing data distributions
+•Violin Plots showing data distributions
 
-PCA Scatter plot for cluster visualization
+•PCA Scatter plot for cluster visualization
 
-Kernel Density Estimations for continuous variables
+•Kernel Density Estimations for continuous variables
 
-📝 Conclusion
-Identified four optimal customer clusters using K-Means and PCA.
+## 📝 Conclusion
+➤Identified four optimal customer clusters using K-Means and PCA.
 
-Gained actionable insights into purchasing behavior and customer segmentation.
+➤Gained actionable insights into purchasing behavior and customer segmentation.
 
-Insights can drive personalized marketing, better targeting, and optimized product offerings to boost business performance.
+➤Insights can drive personalized marketing, better targeting, and optimized product offerings to boost business performance.
 
